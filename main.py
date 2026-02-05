@@ -57,7 +57,7 @@ def create_board():
 load_and_clean_images()
 all_pieces = create_board()
 
-# --- Main Loop ---
+# Main Loop 
 while True:
     success, frame = cap.read()
     if not success: break
